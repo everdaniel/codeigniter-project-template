@@ -10,8 +10,8 @@
 $config['app_title'] = 'My App';
 
 // Default "From" for Email library
-$config['email_from_name'] = 'No responder - Pizzamore';
-$config['email_from_email'] = 'no_responder@pizzamore.com.py';
+$config['email_from_name'] = 'Do Not Reply - My App';
+$config['email_from_email'] = 'do_not_reply@myapp.com';
 
 // Default blocked domains for Email Validation
 $config['blocked_domains'] = array(
