@@ -105,7 +105,7 @@ class App_Controller extends CI_Controller
         
         if (count($this->js_windowload) > 0)
         {
-            $str.= "$(document).ready(function() {\n";
+            $str.= "$(window).load(function() {\n";
             $str.= implode("\n", $this->js_windowload) . "\n";
             $str.= "});\n";
         }
